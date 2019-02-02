@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: blue;
+    font-weight: 300
+}
+
+#section-box {
+    height: 400px;
+    background: chocolate;
+    position: relative;
+    margin: 10% auto
+}
+
+.container {
+    width: 450px;
+    padding: 35px;
+    position: relative;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    margin: 6px auto
+}
+
+h1 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 25px 0;
+    text-align: center
+}
+
+input[type="text"],
+input[type="password"] {
+    height: 40px;
+    width: 310px;
+    box-sizing: border-box;
+    border-bottom: 4px green;
+    font-weight: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    outline: none;
+    text-align: center;
+    margin-bottom: 6px;
+    margin-top: 4px;
+    margin-left: 40px;
+}
+input[type="submit"] {
+    font-family: Arial, Helvetica, sans-serif;
+    background: mediumseagreen;
+    text-transform: initial;
+    cursor: pointer;
+    border-top: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-style: oblique;
+    margin-left: 40px;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    background: blueviolet
+}
+
